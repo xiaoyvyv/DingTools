@@ -58,7 +58,7 @@ class Main : IXposedHookLoadPackage, MethodHook.ThrowableCallback {
     }
 
     override fun onThrowable(tr: Throwable?) {
-
+        LogUtils.e(tr)
     }
 
     companion object {

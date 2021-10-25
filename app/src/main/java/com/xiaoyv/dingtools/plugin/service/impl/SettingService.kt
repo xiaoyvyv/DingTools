@@ -15,17 +15,7 @@ import de.robv.android.xposed.XC_MethodHook
 class SettingService : IService {
 
     override fun onCreate(hkContext: Context) {
-        XposedUtil.findMethod("","",)
-            .hook(object :MethodHook.HookCallback{
-                override fun onBefore(param: XC_MethodHook.MethodHookParam?) {
-                    TODO("Not yet implemented")
-                }
 
-                override fun onAfter(param: XC_MethodHook.MethodHookParam?) {
-                    TODO("Not yet implemented")
-                }
-
-            })
     }
 
     companion object {

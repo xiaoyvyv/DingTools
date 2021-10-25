@@ -33,6 +33,4 @@ object DingConstant {
     const val PLUGIN_SERVICE_RECALL = "recallService"
 
 
-
-
 }

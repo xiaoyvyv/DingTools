@@ -24,7 +24,7 @@ class DingConfig630 : DingBaseConfig() {
         // MessageDs
         add(
             D.classz.class_defpackage_MessageDs,
-            "qlk,qlk"
+            "qlk"
         )
         add(
             D.classz.class_plugin_webwx_ui_ExtDeviceWXLoginUI,
@@ -33,7 +33,7 @@ class DingConfig630 : DingBaseConfig() {
         // ServiceFactory
         add(
             D.classz.class_defpackage_ServiceFactory,
-            "sdi,sdi"
+            "sdi"
         )
         add(
             D.classz.class_android_dingtalk_redpackets_idl_service_RedEnvelopPickIService,
@@ -80,7 +80,7 @@ class DingConfig630 : DingBaseConfig() {
         // INSERT,IGNORE,INSERT_FAIL
         add(
             D.method.method_defpackage_MessageDs_handler,
-            "a,a"
+            "a"
         )
         add(
             D.method.method_android_dingtalkim_base_model_typeValue,
@@ -100,7 +100,7 @@ class DingConfig630 : DingBaseConfig() {
         )
         add(
             D.method.method_defpackage_ServiceFactory_getService,
-            "a,a"
+            "a"
         )
         add(
             D.method.method_android_dingtalk_redpackets_idl_service_RedEnvelopPickIService_pickRedEnvelopCluster,
@@ -124,7 +124,7 @@ class DingConfig630 : DingBaseConfig() {
         )
         add(
             D.method.method_defpackage_MessageDs_recall,
-            "a,a"
+            "a"
         )
         add(
             D.method.method_wukong_im_conversation_ConversationImpl_latestMessage,
@@ -136,7 +136,7 @@ class DingConfig630 : DingBaseConfig() {
         )
         add(
             D.method.method_defpackage_MessageDs_update,
-            "a,a"
+            "a"
         )
         add(
             D.method.method_wukong_im_message_MessageContentImpl_TextContentImpl_text,
